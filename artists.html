@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEST Artist(s)</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="artists-style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="center">
+
+    <h1>Best R&B Artist(s) of the 2000s</h1>
+
+    <div class="topnav">
+        <a href="index.html">About Me</a>
+        <a href="music.html">My Definition of Music</a>
+        <a href="platforms.html">Music Platforms</a>
+        <a href="artists.html">Artist Poll</a>
+      </div>
+
+
+    <form action="/form-handling-url" method="post">
+        <fieldset>
+
+    <legend>Poll - Best 2000s R&B Artist(s)</legend>
+
+            <div>
+                <label for="Name">Name</label>
+                <input type="text" id="Name" name="Name">
+            </div>
+
+            <div>
+                <label for="website">Personal Websites</label>
+                <select id="Website" name="user_status_name">
+                    <option value="Instagram">Instagram</option>
+                    <option value="Twitter">Twitter</option>
+                    <option value="Youtube">Youtube</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="checkbox" id="artist1" name="artist1" value="Destinys-Child">
+                <label for="artist1">Destiny's Child</label><br>
+                <input type="checkbox" id="artist2" name="artist2" value="Mariah-Carey">
+                <label for="artist2">Mariah Carey</label><br>
+                <input type="checkbox" id="artist3" name="artist3" value="OutKast">
+                <label for="artist3">OutKast</label><br>
+                <input type="checkbox" id="artist4" name="artist4" value="Brandy">
+                <label for="artist4">Brandy</label><br>
+                <input type="checkbox" id="artist5" name="artist5" value="Usher">
+                <label for="artist5">Usher</label><br>
+                <input type="checkbox" id="artist6" name="artist6" value="Mary-J-Blige">
+                <label for="artist6">Mary J. Blige</label><br>
+            </div>
+
+            <div class="center">
+                <label for="url">Personal Website URL</label>
+                <textarea id="url" name="url" rows="5" cols="33"></textarea>
+            </div>
+
+            <div>
+                <input type="checkbox" id="signup" name="signup" checked>
+                <label for="results">Get Poll Results?</label>
+
+            </div>
+
+    <button class="Submit" type="button">Submit Form</button>
+
+            </fieldset>
+    </form>
+</body>
+
+</html>

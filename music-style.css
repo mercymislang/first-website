@@ -1,0 +1,70 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: url("https://img.freepik.com/free-vector/minimal-white-gray-background-with-wavy-lines_1017-25099.jpg?w=1380&t=st=1676182286~exp=1676182886~hmac=bda9f10622742a7f0b10634c5a9c30c865b5915556037732d783dd9e599d218e") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+body > div  {
+  text-align: center;
+  width: 600px;
+  padding: 15px;
+  margin: auto;
+}
+
+.center, div {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.topnav {
+  background-color: gray;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.topnav a {
+  color: white;
+  padding: 4 px;
+  font-family: Verdana;
+  font-size: 16px;
+  text-align: center;
+  padding: 12px 14px;
+}
+
+img {
+  border: 4px solid darkred;
+  border-radius: 50%;
+  padding: 15x;
+  width: 500px;
+  align-self: center;
+}
+
+
+h1 {
+  font-family: Tahoma;
+  font-size: 24;
+  color: darkred;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-family: Verdana;
+  font-size: 16;
+  color: darkred;
+  font-style: normal;
+  text-align: center;
+}
+
+p {
+  font-family: 'Lucida Sans';
+  font-size: 14;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  background-color: gray;
+  border-radius: 10px;
+}
